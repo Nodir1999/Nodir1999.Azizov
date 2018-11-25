@@ -1,0 +1,199 @@
+/*<!---------------------------- Main ---------------------------->*/
+.text
+{
+    color:#FFFFFF;
+    text-shadow: 0 3px 0 black;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin: -81px 0 0 -10px;
+    padding: 0 10px;
+    position: fixed;
+    border-bottom: 2px solid #000000;
+    border-bottom-left-radius:  20px;
+    border-bottom-right-radius: 20px;
+    text-shadow: 0 2px 0 black;
+    background-image: url(http://media.rooang.com/wp-content/uploads/2014/07/Material.jpg);
+    /*border:1px solid red;*/
+}
+.intro 
+{
+    display: flex;
+    margin:  80px 0 0 0;
+    padding: 0 10px;
+   /* border: 1px solid red;*/
+}
+body section
+{
+    display: flex;
+    padding: 0 10px;
+   /* border: 1px solid red;*/
+}
+body header
+{
+    display: flex;
+   
+    padding: 0 10px;
+   /* border: 1px solid red;*/
+}
+hr
+{
+    margin: 0 30px 10px 30px ;
+}
+/*<!--------------------------- details ---------------------------->*/
+header h1
+{
+    color: yellow;
+    margin: 25 15px 0 0;
+}
+header nav
+{
+    margin: 23px 15px 0 0;
+    font-size: 20pt;
+}
+header nav a
+{
+    text-decoration: none;
+    margin: 20px;
+    color: yellow;
+    /*border: 1px solid red;*/
+}
+.intro
+{
+    justify-content: space-between;
+}
+.intro img
+{
+    margin: 10px 0 0 0 ;
+    width: 180px;
+    height: 90px;
+}
+.intro h1
+{
+    padding: 0 0 0 330px;
+    text-shadow: 0 -4px 20px #B5B5B5;
+    font-size: 55pt;
+    color: #3A3636;
+}
+#about p
+{
+    margin: 0 40px 0 40px;
+    font-size: 16pt
+}
+.footer{
+    max-width: 100%;
+    padding: 0 0 10px 0;
+    margin: 100px 0 0 0 ;
+    padding: 0 ;
+    justify-content: space-between;
+
+    /* border: 1px solid red; */
+}
+.contact{
+    display: flex;
+    background-image: radial-gradient(#383838,#494949,#403F3F,#2D2C2C);
+    text-decoration: none;
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px;
+    width:100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    line-height: 25px;
+    font-size: 17px;
+    color:#CBCACA ;
+
+    font-family: calibri;
+    /* border: 1px solid red; */
+}
+.contact__info {
+    margin: 0 0 0 100px;
+    max-width: 50%;
+    flex-basis: 50%;
+    /* border: 1px solid red; */
+}
+.contact__personal {
+margin: -27px 100px 0 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.bio1{
+    
+    padding: 20px;
+    font-size: 25px;
+    font-style: bold;
+}
+.bio1 h1::first-letter {
+    font-size: 37px;
+    margin-right: 0px;
+    /* border: 1px solid red; */
+}
+.bio2{
+    
+    padding: 0 0 0 0;
+    font-size: 25px;
+    font-style: bold;
+}
+.bio2 h1::first-letter {
+    font-size: 37px;
+    margin-right: 0px;
+    /* border: 1px solid red; */
+}
+.row1 {
+    text-align: right;
+    font-weight: bold;
+    padding-left: 100px;
+    /* border: 1px solid red; */
+}
+.row2 {
+    text-align: left;
+    padding-left: 40px;
+    font-family: arial;
+    /* border: 1px solid red; */
+}
+.contact__inha {
+    display: flex;
+    flex-direction: column;
+}
+header p
+{
+    margin: 27px 10px 10px 10px;
+    color: white;
+    font-size: 10px;
+    padding: 0 10px 0 0;
+    word-spacing: 7px; 
+
+}
+    
+
+
+
+
+/*<!--------------------------- Image ------------------------------->*/
+body
+{
+    background-image: url(http://zastavki.com/pictures/originals/2013/Computers_Computers_technology_042219_.jpg);
+    background-repeat: none;
+}
+#about img
+{
+    height: 500px;
+    width: 400px;
+    margin: 0 0 0 200px  ;
+}
+
+
+/*<!--------------------------- :hover ------------------------------->*/
+header nav a:hover
+{
+    text-shadow: 0 -3px 20px white;
+    color: white;
+}
+.intro img:hover
+{
+    box-shadow: 0 -3px 20px white;
+    
+}

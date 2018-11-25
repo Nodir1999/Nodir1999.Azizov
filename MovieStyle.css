@@ -1,0 +1,248 @@
+
+                                                         /*--------- Main ----------*/
+body
+{
+	background-image: url(http://battleship.su/uploads/posts/2012-03/1332485297_c2103ck3l94.jpg);
+	background-attachment: fixed;
+	margin: 250px 90px 150px 90px;
+    box-shadow: 20px 0 100px black;
+	
+}
+.intro
+{
+   position: sticky;
+   position: solid;
+   top: 0;
+}
+body header
+{
+   display: flex;
+   padding: 5px;
+   background-image: radial-gradient(#c7c7c7 ,#474646);
+   padding: 0 20px 0 20px;
+   
+   border-bottom: 2px solid black;
+   /*border:1px solid red;*/
+}
+header img
+{
+	width: 60px;
+	height: 60px;
+
+}
+header h1
+{
+	margin: 10px 0 0 240px;
+}
+.intro nav
+{
+	display: flex;
+	border-bottom:  2px solid black;
+	padding: 0 20px 0 20px;
+	background-color:#585757;
+	/*border:1px solid red;*/
+}
+
+section a
+{
+	text-decoration: none;
+	color: white;
+}
+figcaption
+{
+	font-size: 18pt;
+	color:#292828;
+	text-shadow:0 3px 10px #000000;
+
+}
+                                           /*------------------------ Details ----------------------*/
+.h31
+{
+	border-right: 1px solid black;
+}
+.info
+{
+	display: flex;
+	font-size: 7pt;
+	background-color: #585757;
+	color:#F6F6F6;
+	padding: 0 20px 0 20px;
+	/*border:1px solid red;*/
+}
+section .first
+{
+	display: flex;
+	padding: 0 20px 0 20px;
+	/*border:1px solid red;*/
+}
+section .second
+{
+	display: flex;
+	padding: 0 20px 0 20px;
+	/*border:1px solid red;*/
+}
+section .third
+{
+	display: flex;
+	padding: 0 20px 0 20px;
+	/*border:1px solid red;*/
+}
+section .fourth
+{
+	display: flex;
+	padding: 0 20px 0 20px;
+	/*border:1px solid red;*/
+}
+section .fifth
+{
+	display: flex;
+	padding: 0 20px 0 20px;
+	/*border:1px solid red;*/
+}
+section .sixth
+{
+	display: flex;
+	padding: 0 20px 0 20px;
+	/*border:1px solid red;*/
+}
+footer
+{
+	display: flex;
+	background-color: #585757;
+	padding: 0 20px 0 20px;
+	/*border:1px solid red;*/
+}
+
+hr
+{
+	
+	padding: 0.5px 0 0.5px 0;
+	margin: 0 5px 0 5px;
+	border-radius: 10px;
+	background-color: black;
+}
+footer .footer
+{
+    color: #F6F6F6;
+	display: flex;
+	
+
+    padding: 0 10px 0 10px;
+}
+.footer nav p
+{
+	display: inline;
+
+	padding: 0 40px 0 40px;
+	font-size: 7pt;
+	color: #F6F6F6;
+}
+.footer nav
+{
+	margin: 3px 0 0 721px;
+}
+.footer p
+{
+	font-size: 7pt;
+}
+.intro a
+{
+	padding: 0 20px 0 20px ;
+	
+}
+#Movies
+{
+	border: 3px solid black;
+	background-color: #B5B5B5
+}
+.first img
+{
+	width: 260px;
+	height: 260px;
+	margin: 15px 0 15px 0;
+	
+}
+.r1
+{
+	padding: 10px;
+    text-align: right;
+    font-weight: bold;
+    padding-left: 100px;
+}
+.r2
+{
+	text-align: left;
+	padding: 12px 0 15px 0;
+    padding-left: 40px;
+    font-family: arial;
+}
+.second img
+{
+	width: 260px;
+	height: 260px;
+	margin: 15px 0 15px 0;
+	
+	/*border:1px solid red;*/
+}
+.third img
+{
+	width: 260px;
+	height: 260px;
+	margin: 15px 0 15px 0;
+	
+	/*border:1px solid red;*/
+}
+.fourth img
+{
+	width: 260px;
+	height: 260px;
+	margin: 15px 0 15px 0;
+	
+	/*border:1px solid red;*/
+}
+.fifth img
+{
+	width: 260px;
+	height: 260px;
+	margin: 15px 0 15px 0;
+	
+	/*border:1px solid red;*/
+}
+.sixth img
+{
+	width: 260px;
+	height: 260px;
+	margin: 15px 0 15px 0;
+	
+	/*border:1px solid red;*/
+}
+/*------------------------------Hover-------------------------*/
+.first img:hover
+{
+box-shadow: 0 5px 20px black;
+}
+.second img:hover
+{
+box-shadow: 0 5px 20px black;
+}
+.third img:hover
+{
+box-shadow: 0 5px 20px black;
+}
+.fourth img:hover
+{
+box-shadow: 0 5px 20px black;
+}
+.fifth img:hover
+{
+box-shadow: 0 5px 20px black;
+}
+.sixth img:hover
+{
+box-shadow: 0 5px 20px black;
+}
+.intro a:hover
+{
+	color: #6FAEF5;
+	text-shadow:0 20px 10px #005E9A
+}
